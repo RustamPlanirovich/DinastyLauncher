@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stoik_history">stoik</string>
+    <string name="show_stoik_history">Показать ежедневные мысли стоика?</string>
+    <string name="install_app_name">App name</string>
+</resources>

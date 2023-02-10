@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/allAplicationFragment"
+        android:icon="@drawable/baseline_apps_24"
+        android:title="Apps"/>
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/baseline_space_dashboard_24"
+        android:title="Dashboard"
+        />
+    <item
+        android:id="@+id/notesFragment"
+        android:icon="@drawable/baseline_notes_24"
+        android:title="Notes"
+        />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile"/>
+</menu>

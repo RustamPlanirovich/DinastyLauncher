@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/allAplicationFragment"
+        android:name="com.shainurov.dinastylauncher.view.AllAplicationFragment"
+        android:label="fragment_all_aplication"
+        tools:layout="@layout/fragment_all_aplication" />
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.shainurov.dinastylauncher.view.NotesFragment"
+        android:label="NotesFragment"
+        tools:layout="@layout/all_notes_fragment" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.shainurov.dinastylauncher.view.DashboardFragment"
+        android:label="DashboardFragment"
+        tools:layout="@layout/dashboard_fragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.shainurov.dinastylauncher.view.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/profile_fragment"/>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.shainurov.dinastylauncher.view.SettingFragment"
+        android:label="SettingFragment"
+        tools:layout="@layout/settings_fragment" />
+    <fragment
+        android:id="@+id/dailyHistoryFragment"
+        tools:layout="@layout/daily_history_fragment"
+        android:name="com.shainurov.dinastylauncher.view.DailyHistoryFragment"
+        android:label="DailyHistoryFragment" />
+</navigation>

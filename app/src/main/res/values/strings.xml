@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DinastyLauncher</string>
+    <string name="total_Installed_Apps">All application</string>
+    <string name="todo">Todo</string>
+    <string name="app_package_name">App name</string>
+    <string name="search">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="web_client_id">57974309272-7igfdg8d95m3cgov8pau8h6sa6qor5oj.apps.googleusercontent.com</string>
+    <string name="stoik_history">stoik</string>
+    <string name="show_stoik_history">Показать ежедневные мысли стоика?</string>
+    <string name="open_system_setting">Открыть системные настройки</string>
+    <string name="install_app_name">App name</string>
+</resources>
